@@ -175,7 +175,7 @@ html {
 .sent1 {
     color: #BA91F2;
     z-index: 1;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     position: absolute;
     padding: 7rem;
@@ -229,10 +229,10 @@ html {
 .lottie3 {
     display: flex;
     position: absolute;
-    top: 355rem;
+    top: 335rem;
     transform: scale(2);
     z-index: .5;
-    left: 72%;
+    left: 64%;
     margin: auto;
     height: 5rem;
 }
@@ -351,7 +351,7 @@ iframe {
     z-index: 2;
     position: absolute;
     display: flex;
-    bottom: -550rem;
+    bottom: -622rem;
     width: 100%;
 }
 
@@ -528,7 +528,16 @@ iframe {
         margin: 3rem 2rem;
         }
 
-
+      .skills {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        height: 8rem;
+        z-index: 5;
+        filter: drop-shadow(0 0 0.75rem magenta);
+            background: rgb(0,13,79);
+            background: radial-gradient(circle, rgba(0,13,79,1) 0%, rgba(0,16,97,1) 0%, rgba(22,10,64,1) 56%);
+      }
         .latest {
             font-family: 'Orbitron';
             color: rgb(197, 153, 238);
@@ -557,6 +566,57 @@ iframe {
             width: 10%;
             height: 35rem;
             }
+
+            .projects {
+                position: absolute;
+                display: block;
+                top: 287rem;
+                margin: 2.5rem;
+              }
+
+              .skills-title {
+                flex-direction: column;
+                }
+
+                .skills-title {
+                    flex-basis: row;
+                    justify-content: center;
+                    width: 70%;
+    
+                }
+
+                .skills-list.col1 {
+                    display: flex;
+                    flex-direction: column;
+                    width: 40%;
+                    }
+
+                .skills-list.col2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: right;
+                    width: 58%;
+                    }
+
+                    .skills {
+                        position: relative;
+                        height: 26rem;
+                        top: 97rem;
+                        width: 90%;
+                        margin: 2.2rem;
+                        color: #BA91F2;
+                        flex-flow: wrap;
+                        font-size: 1.6rem;
+                        }
+                        .sent2 {
+                        height: 27rem;
+                        }
+                        .mission {
+                        top: 46rem;
+                        }
+                        .background {
+                        top: 8rem;
+                        }
 
     .refs {
         position: absolute;
